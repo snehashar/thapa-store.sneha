@@ -1,0 +1,569 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav{
+    height:25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    font-family: sans-serif;
+}
+
+#nav #nav1{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    align-items: center;
+    padding: 1vw 3vw;
+}
+
+#nav #nav1 #navpart1{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 10vh;
+    justify-content: flex-end;
+    gap: 5vw;
+    align-items: center;
+    text-decoration: none;
+}
+.gap {
+    display: flex;
+    gap: 2vw;
+
+}
+.gap a{
+    text-decoration: none;
+
+}
+    
+
+
+
+#nav #nav2{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding:1vw 4vw;
+    
+
+}
+#nav #nav2 #navpart2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    width:90%;
+    padding: 1vw 0 0 0  ;
+    align-items: center;
+
+}
+#nav #nav2 img{
+    height: 16vh;
+    width:25vw;
+
+}
+.gapping{
+    display:flex;
+    flex-direction: row;
+    gap: 4vw;
+    font-size: 1.1em;
+}
+.gapping button{
+    background-color: #38B6FF;
+    width: 5vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-radius: 20px;
+    padding: 1vw;
+    justify-content: space-between;
+    border: none;
+    margin-top: -0.9vw;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#38B6FF,#a4d6f3);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#page1 #content1{
+    height: 100vh;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    padding: 5vw;
+    justify-content: center;
+    gap:1vw;
+    
+
+
+}
+
+#page1 #content1 h4{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #003B99;
+
+    margin-top: -6vw;
+
+}
+
+#page1 #content1 h1{
+    font-size: 4.2em;
+    font-family: sans-serif;
+    color: #003B99;
+    
+    
+
+}
+
+#page1 #content1 p{
+    font-family: sans-serif;
+    color:whitesmoke;
+    font-size: 1.2em;
+
+
+}
+#page1 #content2{
+    height: 100vh;
+    width: 40%;
+    object-fit: cover;
+    padding: 1vw;
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+#page1 #content1 button {
+    height: 6vh;
+    width: 15vw;
+    background-color:#2A2C30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+#page1 #content2 img{
+    height: 49%;
+    margin-top: 5vw;
+    margin-right: 3vw;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    padding:3vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+#page2 #box1{
+    height: 40vh;
+    width: 100%;
+    background-color:#FEFEFE;
+    display: flex;
+    flex-direction: row;
+}
+
+#page2 #box1 #box-part1{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    height:40vh;
+    border-left: solid black 1px;
+}
+#page2 #box1 #box-part1 #writeup{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    align-items: flex-start;
+    padding: 1vw;
+    justify-content: center;
+    gap: 1vw;
+    font-family: sans-serif;
+
+}
+#page2 #box1 #box-part1 #writeup h4{
+    text-transform: uppercase;
+
+}
+#page2 #box1 #box-part1 #writeup a{
+    text-transform: uppercase;
+    color: #2A2C30;
+}
+#page2 #box1 #box-part1 #writeup h1{
+    text-transform: capitalize;
+
+}
+#page2 #box1 #box-part1 #image{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 0 1vw;
+}
+#page2 #box1 #box-part1 #image img{
+    height: 20vh;
+    width: 18vw;
+}
+#page2 #box1 #box-part1 #image .img1{
+    height:25vh;
+    width: 15vw;
+}
+#page2 #box1 #box-part1 #image .img2{
+    height: 28vh;
+}
+#page2 #box1 #box-part1:nth-child(1){
+    border: none;
+}
+#page2 #box2{
+    height: 25vh;
+    width: 100%;
+    background-color: #FEFEFE;
+    display:flex;
+    flex-direction: row;
+    
+}
+#page2 #box2 #box-part2 {
+    height:100%;
+    width: 25%;
+    border-left: solid rgb(240, 232, 232) 0.4px;
+    display: flex;
+    flex-direction: row;
+}
+#page2 #box2 #box-part2:nth-child(1){
+    border: none;
+}
+#page2 #box2 #box-part2 #likhle-kuchbhi{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 1vw;
+    font-family: sans-serif;
+    gap: 1vw;
+}
+#page2 #box2 #box-part2 #likhle-kuchbhi h4{
+     font-size: larger;
+     text-transform: capitalize;
+     font-weight: 300;
+}
+#page2 #box2 #box-part2 #likhle-kuchbhi p{
+     text-transform: capitalize;
+
+}
+
+#page2 #box2 #box-part2 #icon{
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1vw;
+}
+#page2 #box2 #box-part2 #icon i{
+    font-size: 3.5em;
+    color: #576EF0;
+    
+}
+
+#page2 #box3{
+    height: 10vh;
+    width :100%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    font-family: sans-serif;
+    font-size:1.2em;
+    color: #3a3b3e;
+}
+
+#page3{
+    height: 250vh;
+    width: 100%;
+    background-color: #F7F7F7;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 1vw 4vw;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    
+}
+#page3 #cards{
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    border-radius: 2vw;
+
+
+}
+#page3 #cards #picture{
+    height: 40%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+
+}
+#page3 #cards #likhdo{
+    height: 60%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center ;
+    font-family: sans-serif;
+    gap: 1vw;
+    padding: 1vw;
+}
+#page3 #cards #picture img{
+    height:40vh;
+    width:30vw;
+}
+#page3 #cards #likhdo button{
+    height: 8vh;
+    width: 20vw;
+    background-color: #3a3b3e;
+    color: whitesmoke;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    gap: 2vw;
+    border: none;
+}
+
+#page3 #cards #likhdo button i{
+    color: whitesmoke;
+}
+#page3 #cards #likhdo i{
+    color: orange;
+}
+#page3 #cards #likhdo #hello{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1vw;
+
+}
+#page3 #cards #likhdo #hello #plus{
+    height: 6vh;
+    width: 15vw;
+    border: solid #38B6FF 1px;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: row;
+}
+#page3 #cards #likhdo #hello #plus #division{
+    height: 100%;
+    width: 33.3%;
+    border-right: solid #38B6FF 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#page3 #cards #likhdo #hello #plus #division:last-child{
+    border-right: none;
+}
+
+#page4{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:3vw;
+    background-color: #F7F7F7;
+    gap:0.5vw;
+}
+
+#page4 #st{
+    height:90vh;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+
+}
+#page4 #st #hey{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    padding: 1vw;
+    font-family: 'poppins',sans-serif;
+    gap: 1vw;
+}
+
+
+#page4 #st #hey #circle{
+    border-radius: 50%;
+    background-color:#EBF3FE;
+    height: 50vh;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 #st #hey h4{
+    font-weight: 300;
+    line-height:2vw;
+}
+#page4 #st img{
+    height: 60vh;
+    width: 30vw;
+}
+#page4 #st:nth-child(2){
+    background-color:#65A0FF;
+    border-radius: 50vw;
+    height: 70vh;
+    margin-top: 10vh;
+    opacity: 1;
+}
+#cursor {
+    position: fixed;
+    width: 20px; /* Width of the custom cursor */
+    height: 20px; /* Height of the custom cursor */
+    background-color: rgba(255, 0, 0, 0.7); /* Cursor color */
+    border-radius: 50%; /* Make it circular */
+    pointer-events: none; /* Prevent cursor from blocking mouse events */
+    transform: translate(-50%, -50%); /* Center the cursor */
+    z-index: 1000; /* Ensure it is on top of other elements */
+    opacity: 1;
+    scale: 1;
+}
+#footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 1vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer #foot{
+    height: 50vh;
+    width:100%;
+    background-color: #2A2C30;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2vw;
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 100;
+
+}
+
+#footer #foot #foot1:nth-child(1){
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1vw;
+    padding: 2vw;
+}
+
+
+#footer #foot #foot1:nth-child(2){
+    width:20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display:flex;
+    flex-direction: column;
+    font-weight: 100;
+    padding: 2vw;
+    gap: 0.5vw;
+
+}
+#footer #foot #foot1:nth-child(3){
+    width:20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display:flex;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 0.5vw;
+    
+
+
+}
+#footer #foot #foot1:nth-child(4){
+    width:20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display:flex;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 0.5vw;
+
+}
+.iii{
+    height: 8vh;
+    width: 15vw;
+}
+
+#footer #foot #foot1 h4:nth-child(1){
+    margin-bottom: 10vw;
+}
+.class{
+    background-color: black;
+    color: #F7F7F7;
+}
